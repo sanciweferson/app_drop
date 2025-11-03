@@ -1,0 +1,91 @@
+:root {
+  
+  --radius: 0.65rem; /* raio (bordas arredondadas) */
+  
+  --background: oklch(1 0 0); /* cor de fundo principal */
+  --foreground: oklch(0.141 0.005 285.823); /* cor do texto principal (frente) */
+  
+  --card: oklch(1 0 0); /* cor de fundo dos cartões */
+  --card-foreground: oklch(0.141 0.005 285.823); /* cor do texto dentro dos cartões */
+  
+  --popover: oklch(1 0 0); /* fundo de popups, tooltips, menus suspensos */
+  --popover-foreground: oklch(0.141 0.005 285.823); /* texto dos popups */
+  
+  --primary: oklch(0.488 0.243 264.376); /* cor principal (botões, links, destaques) */
+  --primary-foreground: oklch(0.97 0.014 254.604); /* cor do texto sobre o elemento principal */
+  
+  --secondary: oklch(0.967 0.001 286.375); /* cor secundária (usada em botões secundários, detalhes) */
+  --secondary-foreground: oklch(0.21 0.006 285.885); /* texto sobre o elemento secundário */
+  
+  --muted: oklch(0.967 0.001 286.375); /* tons suaves, para fundos de seções neutras */
+  --muted-foreground: oklch(0.552 0.016 285.938); /* texto em áreas suaves (ex: descrição) */
+  
+  --accent: oklch(0.967 0.001 286.375); /* cor de destaque (hover, foco, pequenas ênfases) */
+  --accent-foreground: oklch(0.21 0.006 285.885); /* texto sobre o destaque */
+  
+  --destructive: oklch(0.577 0.245 27.325); /* cor para ações destrutivas (excluir, erro) */
+  
+  --border: oklch(0.92 0.004 286.32); /* cor das bordas */
+  --input: oklch(0.92 0.004 286.32); /* borda/fundo de campos de formulário */
+  --ring: oklch(0.708 0 0); /* cor de anel de foco (focus outline) */
+  
+  --chart-1: oklch(0.809 0.105 251.813); /* cores para gráficos */
+  --chart-2: oklch(0.623 0.214 259.815);
+  --chart-3: oklch(0.546 0.245 262.881);
+  --chart-4: oklch(0.488 0.243 264.376);
+  --chart-5: oklch(0.424 0.199 265.638);
+  
+  --sidebar: oklch(0.985 0 0); /* cor de fundo da barra lateral */
+  --sidebar-foreground: oklch(0.141 0.005 285.823); /* cor do texto da sidebar */
+  --sidebar-primary: oklch(0.546 0.245 262.881); /* elementos principais da sidebar */
+  --sidebar-primary-foreground: oklch(0.97 0.014 254.604); /* texto desses elementos principais */
+  --sidebar-accent: oklch(0.967 0.001 286.375); /* destaque dentro da sidebar */
+  --sidebar-accent-foreground: oklch(0.21 0.006 285.885); /* texto sobre o destaque da sidebar */
+  --sidebar-border: oklch(0.92 0.004 286.32); /* bordas da sidebar */
+  --sidebar-ring: oklch(0.708 0 0); /* anel de foco da sidebar */
+}
+
+  html[data-theme="dark"] {
+      
+  --background: oklch(0.141 0.005 285.823); /* fundo principal no modo escuro */
+  --foreground: oklch(0.985 0 0); /* texto principal (modo escuro) */
+  
+  --card: oklch(0.21 0.006 285.885); /* fundo dos cartões escuros */
+  --card-foreground: oklch(0.985 0 0); /* texto nos cartões escuros */
+  
+  --popover: oklch(0.21 0.006 285.885); /* fundo dos popups escuros */
+  --popover-foreground: oklch(0.985 0 0); /* texto dos popups escuros */
+  
+  --primary: oklch(0.488 0.243 264.376); /* cor principal no escuro */
+  --primary-foreground: oklch(0.97 0.014 254.604); /* texto sobre cor principal */
+  
+  --secondary: oklch(0.274 0.006 286.033); /* cor secundária no modo escuro */
+  --secondary-foreground: oklch(0.985 0 0); /* texto sobre secundária */
+  
+  --muted: oklch(0.274 0.006 286.033); /* tons neutros escuros */
+  --muted-foreground: oklch(0.705 0.015 286.067); /* texto sobre áreas neutras */
+  
+  --accent: oklch(0.274 0.006 286.033); /* cor de destaque no modo escuro */
+  --accent-foreground: oklch(0.985 0 0); /* texto sobre o destaque */
+  
+  --destructive: oklch(0.704 0.191 22.216); /* cor para ações perigosas no escuro */
+  
+  --border: oklch(1 0 0 / 10%); /* bordas suaves */
+  --input: oklch(1 0 0 / 15%); /* fundo/borda de inputs */
+  --ring: oklch(0.556 0 0); /* anel de foco no escuro */
+  
+  --chart-1: oklch(0.809 0.105 251.813);
+  --chart-2: oklch(0.623 0.214 259.815);
+  --chart-3: oklch(0.546 0.245 262.881);
+  --chart-4: oklch(0.488 0.243 264.376);
+  --chart-5: oklch(0.424 0.199 265.638);
+  
+  --sidebar: oklch(0.21 0.006 285.885); /* fundo da sidebar escura */
+  --sidebar-foreground: oklch(0.985 0 0); /* texto na sidebar escura */
+  --sidebar-primary: oklch(0.623 0.214 259.815); /* botões ou links principais da sidebar */
+  --sidebar-primary-foreground: oklch(0.97 0.014 254.604); /* texto desses botões */
+  --sidebar-accent: oklch(0.274 0.006 286.033); /* destaque na sidebar escura */
+  --sidebar-accent-foreground: oklch(0.985 0 0); /* texto sobre o destaque */
+  --sidebar-border: oklch(1 0 0 / 10%); /* borda da sidebar escura */
+  --sidebar-ring: oklch(0.439 0 0); /* anel de foco da sidebar escura */
+}

@@ -1,0 +1,78 @@
+@import "root.css";
+@import "theme.css";
+@import "layout.css";
+@import "main.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ajusta fonte e altura base */
+html,
+body {
+  height: 100%;
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased; /* Suaviza fontes no Chrome/Safari */
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Remove decoração de links e herda cor do texto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tira bullets e espaçamento de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove bordas de botões e inputs e herda fonte */
+button,
+input,
+textarea,
+select {
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Garante que imagens não estourem o layout */
+img,
+picture,
+video,
+canvas {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove comportamento estranho de botões */
+button {
+  cursor: pointer;
+}
+
+/* Previne zoom em inputs no mobile */
+input,
+textarea {
+  font-size: 1rem;
+}
+
+/* Remove sublinhado azul em links no mobile */
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Container */
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}

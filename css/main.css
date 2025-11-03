@@ -1,0 +1,51 @@
+
+
+main{
+  max-width: 1200px;
+  margin: 6rem auto;
+}
+
+
+
+main {
+  max-width: 1080px;
+  min-height: 100vh;
+  margin: 7rem  auto 3rem;
+  
+}
+
+/* Esconde visualmente a scrollbar, mas permite rolar */
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+
+@media (max-width:600px){
+  main{
+    padding: 1rem 1rem;
+  }
+}
+
+
+
+.footer__info p{
+  color: var( --muted-foreground);
+}
+.footer__info a {
+  color: var( --primary); /* links com cor principal */
+  text-decoration: none; /* remove sublinhado */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer__info a:hover {
+  color: var(--accent); /* cor de destaque ao passar o mouse */
+  transform: scale(1.05); /* leve crescimento no hover */
+}
+
+.footer__info strong {
+  color: var(--primary-foreground); /* destaque no nome */
+}
