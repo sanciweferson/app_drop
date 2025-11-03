@@ -213,7 +213,7 @@ body::-webkit-scrollbar {
     margin-top: 1rem;
     order: 2;
     width: 100%;
-    padding: 0rem; /* garante menos espaço nas bordas */
+    padding: 0rem 1rem; /* garante menos espaço nas bordas */
   }
 
   .hero__title {
