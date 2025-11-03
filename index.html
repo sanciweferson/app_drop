@@ -23,23 +23,46 @@
     <title>LENO APP</title>
   </head>
   <body>
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Your <span class="hero__title--primary">productivity</span>
+          </h1>
+          <p>
+            Boot your productivity and improve your health with Leno - the
+            all-in-one app for developers and creatprs.
+          </p>
+          <div class="hero__buttons">
+            <a href="#download" class="hero__button btn">
+              <i class="fa-brands fa-apple"></i><span>
+                For Apple
+              </span></a
+            >
 
-
+            <a href="#download" class="hero__button btn">
+              <i class="fa-brands fa-android"></i><span>
+                For Android
+              </span></a
+            >
+          </div>
+        </div>
+        <div class="hero__img">
+          <img src="./assets/images/header-smartphones.png" alt="Leno App" />
+        </div>
+      </div>
+    </header>
     <main>
-      <section id="features">Features
-
-       
-      </section>
+      <section id="features">Features</section>
 
       <section id="preview">Preview</section>
       <section id="details">Details</section>
       <section id="download">Download</section>
-      <section id="contact">Contato
-       
-      </section>
+      <section id="contact">Contato</section>
     </main>
 
-<button id="btnTop" title="Voltar ao topo">
+    <button id="btnTop" title="Voltar ao topo">
       <i class="fa-solid fa-arrow-up"></i>
     </button>
     <!-- top -->
@@ -66,9 +89,8 @@
       })
     </script>
 
-<script src="js/layout/layout.js"></script>
+    <script src="js/layout/layout.js"></script>
     <script type="module">
-  
       import { sidebar } from "/js/components/sidebar/index.js"
       import { initTheme } from "/js/theme/theme.init.js"
       import { initNavbarScroll } from "/js/components/navbar/scroll.js"
@@ -77,8 +99,6 @@
         initTheme()
         sidebar.init()
         initNavbarScroll()
-       
-     
       })
     </script>
   </body>

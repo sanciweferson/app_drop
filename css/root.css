@@ -1,5 +1,6 @@
 :root {
-  
+  --scroll-bar: oklch(0.92 0.01 260.912);
+
   --radius: 0.65rem; /* raio (bordas arredondadas) */
   
   --background: oklch(1 0 0); /* cor de fundo principal */
@@ -46,7 +47,8 @@
 }
 
   html[data-theme="dark"] {
-      
+      --scroll-bar:oklch(0.286 0.014 260.912);
+
   --background: oklch(0.141 0.005 285.823); /* fundo principal no modo escuro */
   --foreground: oklch(0.985 0 0); /* texto principal (modo escuro) */
   
