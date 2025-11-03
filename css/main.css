@@ -31,21 +31,3 @@ body::-webkit-scrollbar {
 }
 
 
-
-.footer__info p{
-  color: var( --muted-foreground);
-}
-.footer__info a {
-  color: var( --primary); /* links com cor principal */
-  text-decoration: none; /* remove sublinhado */
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-
-.footer__info a:hover {
-  color: var(--accent); /* cor de destaque ao passar o mouse */
-  transform: scale(1.05); /* leve crescimento no hover */
-}
-
-.footer__info strong {
-  color: var(--primary-foreground); /* destaque no nome */
-}
