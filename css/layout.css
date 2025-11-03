@@ -342,7 +342,7 @@ footer {
 
 @media (max-width: 600px) {
   .nav__bar {
-    padding: 1.5rem 0rem;
+    padding: 0.5rem 0rem;
   }
   .nav__container {
     padding: 0rem;
@@ -359,6 +359,9 @@ footer {
   }
   .footer__list li a {
     font-size: 14px;
+  }
+  .nav__bar .nav__logo{
+    width: 100px;
   }
 }
 /* ==============================
