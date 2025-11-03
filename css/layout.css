@@ -2,7 +2,7 @@
    NAVBAR
 ============================== */
 .nav__bar {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -89,6 +89,7 @@
 
 .nav__logo img {
   width: 130px;
+  padding-left: 1rem;
 }
 
 /* Nav links desktop */
@@ -342,10 +343,10 @@ footer {
 
 @media (max-width: 600px) {
   .nav__bar {
-    padding: 0.5rem 0rem;
+    padding: 0rem ;
   }
   .nav__container {
-    padding: 0rem;
+    padding: 0rem 0rem;
   }
   .footer__list {
     list-style: none;
@@ -370,7 +371,7 @@ footer {
 @media (max-width: 768px) {
   .nav__mobile__toggle {
     display: block;
-    margin-top: 1rem;
+   
   }
   #mobile__side {
     display: block;
