@@ -482,10 +482,17 @@ body::-webkit-scrollbar {
 @media (max-width: 430px) {
    .testimonials__container{
   display: flex;
-  padding: 0rem 1rem;
+  padding: 0rem 0.5rem;
   gap: 2rem;
 flex-direction: column;
 max-width: 100%;
   
 }
+
+.testimonial__card {
+
+    flex: 1 1 1 100%; /* cada cartão ocupa toda a largura */
+    max-width: 100%; 
+   
+  }
 }
