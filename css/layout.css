@@ -84,12 +84,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:  1rem;
+  padding:  1rem 0rem;
 }
 
 .nav__logo img {
   width: 130px;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 }
 
 /* Nav links desktop */
