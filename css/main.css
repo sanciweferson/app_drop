@@ -477,3 +477,15 @@ body::-webkit-scrollbar {
   
 }
 
+
+
+@media (max-width: 430px) {
+   .testimonials__container{
+  display: flex;
+  padding: 0rem 1rem;
+  gap: 2rem;
+flex-direction: column;
+max-width: 100%;
+  
+}
+}
