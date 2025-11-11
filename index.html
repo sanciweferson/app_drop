@@ -241,11 +241,79 @@
           </div>
         </div>
       </section>
-      <section id="details">Details</section>
+
+      <!-- Modal -->
+      <!-- Modal -->
+      <div class="modal" id="videoModal">
+        <div class="modal__content">
+          <span class="modal__close-button">&times;</span>
+          <iframe
+            src=""
+            frameborder="0"
+            id="videoPlayer"
+            width="560"
+            height="315"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <!-- Preview -->
+      <section class="preview" id="preview">
+        <div class="preview__container container">
+          <div class="preview__content">
+            <h2 class="preview__title">Preview</h2>
+            <p class="preview__description">
+              Take a sneak peek at Leno's sleek and intuitive interface:
+            </p>
+            <div class="preview__image-container">
+              <div class="preview__video-wrapper">
+                <img src="./images/video-frame.jpg" alt="preview" />
+                <button class="preview__video-button">
+                  <span class="preview__video-play-button">
+                    <span></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="download">Download</section>
       <section id="contact">Contato</section>
     </main>
 
+    <!-- Modal scrip -->
+    <script>
+      // Video Modal
+      const modal = document.getElementById("videoModal")
+      const videoButton = document.querySelector(".preview__video-button")
+      const closeButton = document.querySelector(".modal__close-button")
+      const videoPlayer = document.getElementById("videoPlayer")
+
+      // Open modal when clicked
+      videoButton.addEventListener("click", function () {
+        // Show modal
+        modal.style.display = "block"
+
+        //Replace the src attribute with the video URL
+        videoPlayer.src = "https://www.youtube.com/embed/8sXRyHI3bLw"
+
+        // Close modal on close button click
+        closeButton.addEventListener("click", function () {
+          modal.style.display = "none"
+          videoPlayer.src = ""
+        })
+
+        // Close modal on outter click
+        window.addEventListener("click", function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none"
+            videoPlayer.src = ""
+          }
+        })
+      })
+    </script>
     <button id="btnTop" title="Voltar ao topo">
       <i class="fa-solid fa-arrow-up"></i>
     </button>
