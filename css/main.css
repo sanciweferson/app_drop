@@ -1392,7 +1392,7 @@ body::-webkit-scrollbar {
   width: 430px;       /* força preview de mobile */
   height: 100vh;       /* resolução padrão desktop */
   border: none;
-  transform: scale(0.71);   /* reduz p/ caber no card */
+  transform: scale(0.87);   /* reduz p/ caber no card */
   transform-origin: top left;
 }
   
