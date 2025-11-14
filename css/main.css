@@ -1389,10 +1389,10 @@ body::-webkit-scrollbar {
 }
 
 .preview iframe {
-  width: 600px;       /* força preview de mobile */
+  width: 430px;       /* força preview de mobile */
   height: 100vh;       /* resolução padrão desktop */
   border: none;
-  transform: scale(0.63);   /* reduz p/ caber no card */
+  transform: scale(0.89);   /* reduz p/ caber no card */
   transform-origin: top left;
 }
   
